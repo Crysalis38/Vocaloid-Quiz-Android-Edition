@@ -29,7 +29,7 @@ public class Quiz_Select extends Activity {
       
     }
    
-    
+    //Main Method
     public void main(){
     	
     	btn_q1.setOnClickListener(new View.OnClickListener() {

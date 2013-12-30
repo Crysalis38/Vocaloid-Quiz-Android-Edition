@@ -1,17 +1,21 @@
 package com.animeandmangalabs.quiz_engine;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 
-public class quiz_data_manager {
-	public static String string_01;
+public class quiz_data_manager extends Activity{
+	public static String string_result;
 	
 	public static void loadPrefs(String key,Context context){
-	
+		
 		SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-		string_01 = sp.getString(key, "ERROR NO DATA");
+		string_result = sp.getString(key, "NULL");
+		
+		
 	}
 	
 	public static void savePrefs(String key,String value,Context context){

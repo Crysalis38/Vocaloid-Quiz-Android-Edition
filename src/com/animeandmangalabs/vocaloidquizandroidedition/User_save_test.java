@@ -1,5 +1,9 @@
 package com.animeandmangalabs.vocaloidquizandroidedition;
 
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -15,8 +19,11 @@ public class User_save_test extends Activity {
 	public static Button btn_submit;
 	public static String p_name;
 	public static TextView user_name;
+	public static String sInput;
+	final static Lock lock = new ReentrantLock();
+	final static Condition Received = lock.newCondition();
 	quiz_data_manager qdm;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -44,7 +51,7 @@ public class User_save_test extends Activity {
 	
 	public void restoreUserSession(){
 		qdm.loadPrefs("name", User_save_test.this);
-		user_name.setText(quiz_data_manager.string_01);
+		user_name.setText(sInput);
 	}
 	
 	@Override
