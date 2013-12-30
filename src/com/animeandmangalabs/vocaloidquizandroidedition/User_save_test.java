@@ -8,14 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.animeandmangalabs.quiz_engine.*;
+
 public class User_save_test extends Activity {
 
 	public static EditText p_name_input;
 	public static Button btn_submit;
 	public static String p_name;
 	public static TextView user_name;
-	quiz_data_manager qdm;
+	
+	public static final String PREFS_NAME = "voca_user_data";
+	public static String PLAYER_NAME;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,28 +27,19 @@ public class User_save_test extends Activity {
 		btn_submit = (Button) findViewById(R.id.user_save_submit_btn);
 		p_name_input = (EditText) findViewById(R.id.user_save_text_input);
 		user_name = (TextView) findViewById(R.id.user_save_label);
-		restoreUserSession();
+		user_name.setText(p_name);
 		btn_submit.setOnClickListener(new View.OnClickListener() {
 		
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				p_name = p_name_input.getText().toString();
-				saveUserSession();
+				
 			}
 		});
 	}
 
 
-	public void saveUserSession(){
-		qdm.savePrefs("name", p_name, User_save_test.this);
-		
-	}
-	
-	public void restoreUserSession(){
-		qdm.loadPrefs("name", User_save_test.this);
-		user_name.setText(quiz_data_manager.string_01);
-	}
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
