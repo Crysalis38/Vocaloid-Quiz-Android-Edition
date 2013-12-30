@@ -18,22 +18,26 @@ import android.widget.ScrollView;
 
 public class Quiz_Select extends Activity {
 	ImageButton btn_q1,btn_q2,btn_q3;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz__select);
         btn_q1 = (ImageButton)findViewById(R.id.quiz_select_q1);
         main();
+      
     }
-    
+   
     
     public void main(){
+    	
     	btn_q1.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {//Start Quiz 01
 				// TODO Auto-generated method stub
-			Intent intent = new Intent(Quiz_Select.this, Quiz_01.class);
+		
+				Intent intent = new Intent(Quiz_Select.this, Quiz_01.class);
 			startActivity(intent);
 			}
 		});

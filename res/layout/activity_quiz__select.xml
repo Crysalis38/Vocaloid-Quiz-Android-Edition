@@ -2,13 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
     android:background="@drawable/quiz_select_bg"
     android:orientation="vertical" >
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:scrollbarStyle="outsideInset"
         android:scrollbarThumbHorizontal="@drawable/scrollbar_slider"
         android:scrollbarTrackHorizontal="@drawable/scrollbar_bottom_bar"
@@ -17,36 +18,89 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
+            android:gravity="bottom"
             android:orientation="horizontal" >
 
-            <ImageButton
-                android:id="@+id/quiz_select_q1"
+            <LinearLayout
+                android:id="@+id/miku_select_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/Fulltrans"
-                android:contentDescription="@string/contdescqiuz1"
-                android:src="@drawable/miku_select" />
+                android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/quiz_select_q2"
+                <TextView
+                    android:id="@+id/quiz_select_q1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/q1_text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/Blue"
+                    android:textSize="40sp" />
+
+                <ImageButton
+                    android:id="@+id/quiz_select_q1"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:background="@drawable/miku_select"
+                    android:contentDescription="@string/contdescqiuz1"
+                    android:cropToPadding="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/luka_select_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/Fulltrans"
-                android:contentDescription="@+string/contdescqiuz1"
-                android:src="@drawable/luka_select" />
+                android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/quiz_select_q3"
+                <TextView
+                    android:id="@+id/quiz_select_q2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/q2_text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/Blue"
+                    android:textSize="40sp" />
+
+                <ImageButton
+                    android:id="@+id/quiz_select_q2"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/luka_select"
+                    android:contentDescription="@+string/contdescqiuz1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rin_select_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/Fulltrans"
-                android:contentDescription="@string/action_settings"
-                android:src="@drawable/rin_select" />
+                android:orientation="vertical" >
 
+                <TextView
+                    android:id="@+id/quiz_select_q3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/q3_text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/Blue"
+                    android:textSize="40sp" />
+
+                <ImageButton
+                    android:id="@+id/quiz_select_q3"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rin_select"
+                    android:contentDescription="@string/action_settings" />
+            </LinearLayout>
         </LinearLayout>
     </HorizontalScrollView>
 
