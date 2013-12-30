@@ -193,7 +193,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ImageView01=0x7f09000b;
         public static final int ImageView02=0x7f090006;
         public static final int RelativeLayout1=0x7f090004;
-        public static final int action_settings=0x7f090019;
+        public static final int action_settings=0x7f09001c;
         public static final int luka_select_group=0x7f090013;
         public static final int main_start_button=0x7f090003;
         public static final int miku_select_group=0x7f090011;
@@ -212,6 +212,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tCorrect=0x7f09000f;
         public static final int tIncorrect=0x7f09000e;
         public static final int textView2=0x7f090002;
+        public static final int user_save_label=0x7f09001a;
+        public static final int user_save_submit_btn=0x7f09001b;
+        public static final int user_save_text_input=0x7f090019;
         public static final int view_2_buttons=0x7f090005;
         public static final int view_2_text=0x7f090009;
     }
@@ -219,12 +222,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_main=0x7f030000;
         public static final int activity_quiz_01=0x7f030001;
         public static final int activity_quiz__select=0x7f030002;
+        public static final int activity_user_save_test=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;
         public static final int quiz_01=0x7f080001;
         public static final int quiz__select=0x7f080002;
         public static final int quiz__selection_menu=0x7f080003;
+        public static final int user_save_test=0x7f080004;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -254,6 +259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_activity_quiz_01=0x7f060007;
         public static final int title_activity_quiz__select=0x7f060012;
         public static final int title_activity_quiz__selection_menu=0x7f06000f;
+        public static final int title_activity_user_save_test=0x7f06001b;
     }
     public static final class style {
         /** 

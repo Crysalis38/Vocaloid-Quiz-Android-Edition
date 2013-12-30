@@ -24,6 +24,7 @@ public class Quiz_Select extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz__select);
         btn_q1 = (ImageButton)findViewById(R.id.quiz_select_q1);
+        btn_q2 = (ImageButton)findViewById(R.id.quiz_select_q2);
         main();
       
     }
@@ -39,6 +40,17 @@ public class Quiz_Select extends Activity {
 		
 				Intent intent = new Intent(Quiz_Select.this, Quiz_01.class);
 			startActivity(intent);
+			}
+		});
+    	
+    	btn_q2.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+			
+				Intent intent = new Intent(Quiz_Select.this, User_save_test.class);
+				startActivity(intent);
 			}
 		});
     }
