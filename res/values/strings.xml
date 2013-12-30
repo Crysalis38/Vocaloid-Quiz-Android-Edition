@@ -25,5 +25,8 @@
     <string name="hatsune_miku">Hatsune Miku</string>
     <string name="kagame_rin">Kagame Rin</string>
     <string name="quiz_01_btn_text">Submit</string>
+    <string name="q1_text">QUIZ PACK 01</string>
+    <string name="q2_text">QUIZ PACK 02</string>
+    <string name="q3_text">QUIZ PACK 03</string>
 
 </resources>

@@ -20,7 +20,7 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/quiz_select_q1_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/quiz_question"
@@ -33,7 +33,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/quiz_select_q1_text"
         android:layout_centerHorizontal="true"
         android:text="@string/main_menu_text_3"
         android:textAppearance="?android:attr/textAppearanceLarge"
