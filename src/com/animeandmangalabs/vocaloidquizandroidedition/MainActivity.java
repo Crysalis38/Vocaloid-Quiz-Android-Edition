@@ -7,16 +7,19 @@ import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
-
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
+public static boolean firstRun = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //onCreate init
         btn_start  = (Button) findViewById(R.id.main_start_button);
-    //onClick Listener
+        
+        //Btn listener
         btn_start.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -32,8 +35,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
     }
 
   
-    
-
+  
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

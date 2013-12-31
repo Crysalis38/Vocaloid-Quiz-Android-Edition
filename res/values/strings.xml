@@ -28,5 +28,6 @@
     <string name="q1_text">QUIZ PACK 01</string>
     <string name="q2_text">QUIZ PACK 02</string>
     <string name="q3_text">QUIZ PACK 03</string>
+    <string name="title_activity_user_save_test">User_save_test</string>
 
 </resources>
