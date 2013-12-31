@@ -2,14 +2,14 @@ package com.animeandmangalabs.vocaloidquizandroidedition;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
-import android.preference.*;
-import android.content.SharedPreferences.*;
-import android.content.*;
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
@@ -37,18 +37,20 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
 		});
     }
 
-  public void checkFirstTimeRun(){
-	  SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-	  boolean first_run = sp.getBoolean("FIRST_RUN",false);
-	  	if(first_run = false){
-			
-		}
-  }
-  public void setFirstTimeRun(){
-	  SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-	  boolean first_run;
-	  
-  }
+  
+    public void firstRunCheck(){
+    	SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+    	boolean firstRun = sp.getBoolean("FIRST_RUN", false);
+    	if(firstRun = false){
+    		//OPEN DIALOG
+    		
+    		//OPEN DIALOG
+    		
+    	}else{
+    	System.out.println("USER IS REGISTERED");
+    	}
+    }
+  
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
