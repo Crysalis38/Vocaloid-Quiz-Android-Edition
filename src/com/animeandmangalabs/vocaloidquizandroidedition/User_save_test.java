@@ -51,7 +51,7 @@ public class User_save_test extends Activity {
 	
 	public void restoreUserSession(){
 		qdm.loadPrefs("name", User_save_test.this);
-		user_name.setText(sInput);
+	//	user_name.setText(quiz_data_manager.string_result);
 	}
 	
 	@Override

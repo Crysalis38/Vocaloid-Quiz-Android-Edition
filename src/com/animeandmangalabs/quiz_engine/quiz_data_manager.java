@@ -8,12 +8,13 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 
 public class quiz_data_manager extends Activity{
-	public static String string_result;
+	
 	
 	public static void loadPrefs(String key,Context context){
 		
 		SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-		string_result = sp.getString(key, "NULL");
+		String string_result = sp.getString(key, "NULL");
+		
 		
 		
 	}
