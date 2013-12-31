@@ -12,10 +12,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.animeandmangalabs.quiz_engine.*;
 import android.content.Intent.*;
 import android.content.*;
 import android.preference.*;
+import android.content.SharedPreferences.*;
 public class User_save_test extends Activity {
 
 	public static EditText p_name_input;
@@ -23,9 +23,6 @@ public class User_save_test extends Activity {
 	public static String p_name;
 	public static TextView user_name;
 	public static String sInput;
-	final static Lock lock = new ReentrantLock();
-	final static Condition Received = lock.newCondition();
-	quiz_data_manager qdm;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +45,11 @@ public class User_save_test extends Activity {
 
 
 	public void saveUserSession(){
-		qdm.savePrefs("name", p_name, User_save_test.this);
+		p_name = p_name_input.getText().toString();
+		SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+		Editor editor = sp.edit();
+		editor.putString("name",p_name);
+		editor.commit();
 		restoreUserSession();
 	}
 	
