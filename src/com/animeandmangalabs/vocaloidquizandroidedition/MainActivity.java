@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
+import com.animeandmangalabs.quiz_engine.*;
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
@@ -39,8 +40,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
 
   
     public void firstRunCheck(){
-    	SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-    	boolean firstRun = sp.getBoolean("FIRST_RUN", false);
+    	quiz_data_manager.getBoolean(); 
     	if(firstRun = false){
     		//OPEN DIALOG
     		
