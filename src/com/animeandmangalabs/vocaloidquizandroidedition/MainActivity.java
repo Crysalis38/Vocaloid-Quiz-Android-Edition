@@ -2,15 +2,19 @@ package com.animeandmangalabs.vocaloidquizandroidedition;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
+import com.animeandmangalabs.quiz_engine.*;
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
-public static boolean firstRun = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +39,7 @@ public static boolean firstRun = false;
     }
 
   
+   
   
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

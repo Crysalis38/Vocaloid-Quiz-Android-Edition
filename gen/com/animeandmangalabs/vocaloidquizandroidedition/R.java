@@ -193,8 +193,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ImageView01=0x7f09000b;
         public static final int ImageView02=0x7f090006;
         public static final int RelativeLayout1=0x7f090004;
-        public static final int action_forgot_password=0x7f09001c;
-        public static final int action_settings=0x7f09001d;
+        public static final int action_settings=0x7f090019;
         public static final int luka_select_group=0x7f090013;
         public static final int main_start_button=0x7f090003;
         public static final int miku_select_group=0x7f090011;
@@ -213,53 +212,36 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tCorrect=0x7f09000f;
         public static final int tIncorrect=0x7f09000e;
         public static final int textView2=0x7f090002;
-        public static final int user_save_label=0x7f09001a;
-        public static final int user_save_submit_btn=0x7f09001b;
-        public static final int user_save_text_input=0x7f090019;
         public static final int view_2_buttons=0x7f090005;
         public static final int view_2_text=0x7f090009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_quiz_01=0x7f030001;
-        public static final int activity_quiz__select=0x7f030002;
-        public static final int activity_user_save_test=0x7f030003;
+        public static final int activity_preferences=0x7f030001;
+        public static final int activity_quiz_01=0x7f030002;
+        public static final int activity_quiz__select=0x7f030003;
     }
     public static final class menu {
-        public static final int login=0x7f080000;
-        public static final int main=0x7f080001;
-        public static final int quiz_01=0x7f080002;
-        public static final int quiz__select=0x7f080003;
-        public static final int quiz__selection_menu=0x7f080004;
-        public static final int user_save_test=0x7f080005;
+        public static final int main=0x7f080000;
+        public static final int quiz_01=0x7f080001;
+        public static final int quiz__select=0x7f080002;
+        public static final int quiz__selection_menu=0x7f080003;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f060021;
         public static final int action_settings=0x7f060001;
-        public static final int action_sign_in_register=0x7f06001f;
-        public static final int action_sign_in_short=0x7f060020;
         public static final int app_name=0x7f060000;
         public static final int btn_main_menu=0x7f06000e;
         public static final int cont_miku_select=0x7f060013;
         public static final int contdescqiuz1=0x7f060014;
         public static final int dummy_button=0x7f060010;
         public static final int dummy_content=0x7f060011;
-        public static final int error_field_required=0x7f060026;
-        public static final int error_incorrect_password=0x7f060025;
-        public static final int error_invalid_email=0x7f060023;
-        public static final int error_invalid_password=0x7f060024;
         public static final int hatsune_miku=0x7f060015;
         public static final int hello_world=0x7f060005;
         public static final int image_of_quiz_question=0x7f060008;
         public static final int kagame_rin=0x7f060016;
-        public static final int login_progress_signing_in=0x7f060022;
         public static final int main_menu_text_1=0x7f060002;
         public static final int main_menu_text_2=0x7f060003;
         public static final int main_menu_text_3=0x7f060004;
-        /**  Strings related to login 
-         */
-        public static final int prompt_email=0x7f06001d;
-        public static final int prompt_password=0x7f06001e;
         public static final int q1_1=0x7f060009;
         public static final int q1_2=0x7f06000c;
         public static final int q1_3=0x7f06000d;
@@ -270,11 +252,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int sCorrect=0x7f06000a;
         public static final int sIncorrect=0x7f06000b;
         public static final int start=0x7f060006;
-        public static final int title_activity_login=0x7f06001c;
         public static final int title_activity_quiz_01=0x7f060007;
         public static final int title_activity_quiz__select=0x7f060012;
         public static final int title_activity_quiz__selection_menu=0x7f06000f;
-        public static final int title_activity_user_save_test=0x7f06001b;
+        public static final int title_activity_user_login_screen=0x7f06001b;
     }
     public static final class style {
         /** 

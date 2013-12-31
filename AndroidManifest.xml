@@ -44,15 +44,6 @@
             android:label="@string/title_activity_quiz__select"
             android:screenOrientation="landscape" >
         </activity>
-        <activity
-            android:name="com.animeandmangalabs.vocaloidquizandroidedition.User_save_test"
-            android:label="@string/title_activity_user_save_test" >
-        </activity>
-        <activity
-            android:name="com.animeandmangalabs.vocaloidquizandroidedition.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
-        </activity>
     </application>
 
 </manifest>

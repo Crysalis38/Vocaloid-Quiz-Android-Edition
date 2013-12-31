@@ -49,8 +49,6 @@ public class Quiz_Select extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 			
-				Intent intent = new Intent(Quiz_Select.this, User_save_test.class);
-				startActivity(intent);
 			}
 		});
     }
