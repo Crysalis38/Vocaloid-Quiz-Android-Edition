@@ -7,10 +7,13 @@ import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
+import android.preference.*;
+import android.content.SharedPreferences.*;
+import android.content.*;
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
-public static boolean firstRun = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +37,18 @@ public static boolean firstRun = false;
 		});
     }
 
-  
-  
+  public void checkFirstTimeRun(){
+	  SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+	  boolean first_run = sp.getBoolean("FIRST_RUN",false);
+	  	if(first_run = false){
+			
+		}
+  }
+  public void setFirstTimeRun(){
+	  SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+	  boolean first_run;
+	  
+  }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
