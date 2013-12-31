@@ -29,5 +29,7 @@
     <string name="q2_text">QUIZ PACK 02</string>
     <string name="q3_text">QUIZ PACK 03</string>
 	<string name="title_activity_user_login_screen">User_login_screen</string>
+	<string name="plus_generic_error">NULL</string>
+	
 
 </resources>
