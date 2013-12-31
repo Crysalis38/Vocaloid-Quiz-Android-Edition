@@ -39,17 +39,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
     }
 
   
-    public void firstRunCheck(){
-    	quiz_data_manager.getBoolean(); 
-    	if(firstRun = false){
-    		//OPEN DIALOG
-    		
-    		//OPEN DIALOG
-    		
-    	}else{
-    	System.out.println("USER IS REGISTERED");
-    	}
-    }
+   
   
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
