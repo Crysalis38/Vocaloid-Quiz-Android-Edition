@@ -16,7 +16,6 @@ public class quiz_data_manager extends Activity{
 		String string_result = sp.getString(key, "NULL");
 		
 		
-		
 	}
 	
 	public static void savePrefs(String key,String value,Context context){

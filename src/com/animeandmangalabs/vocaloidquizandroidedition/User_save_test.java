@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.animeandmangalabs.quiz_engine.*;
+import android.content.Intent.*;
+import android.content.*;
+import android.preference.*;
 public class User_save_test extends Activity {
 
 	public static EditText p_name_input;
@@ -46,12 +49,13 @@ public class User_save_test extends Activity {
 
 	public void saveUserSession(){
 		qdm.savePrefs("name", p_name, User_save_test.this);
-		
+		restoreUserSession();
 	}
 	
 	public void restoreUserSession(){
-		qdm.loadPrefs("name", User_save_test.this);
-	//	user_name.setText(quiz_data_manager.string_result);
+		SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
+		String user_name_string = sp.getString("name", "NULL");
+		user_name.setText(user_name_string);
 	}
 	
 	@Override
