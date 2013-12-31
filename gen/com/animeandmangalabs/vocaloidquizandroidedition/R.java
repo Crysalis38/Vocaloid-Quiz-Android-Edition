@@ -217,8 +217,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_quiz_01=0x7f030001;
-        public static final int activity_quiz__select=0x7f030002;
+        public static final int activity_preferences=0x7f030001;
+        public static final int activity_quiz_01=0x7f030002;
+        public static final int activity_quiz__select=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;
