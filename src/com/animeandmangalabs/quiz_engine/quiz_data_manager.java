@@ -7,6 +7,11 @@ public class quiz_data_manager {
 
 	public static String PREFS_NAME = "com.animeandmangalabs.vocaloid-quiz.settings";
 
+	public void getString(quiz_question_engine p0, String qnumPREF, String p2)
+	{
+		// TODO: Implement this method
+	}
+
 	public static void putString(Context ctx, String key, String value) {
 		SharedPreferences settings = ctx.getSharedPreferences(PREFS_NAME, 0);
 		SharedPreferences.Editor editor = settings.edit();
