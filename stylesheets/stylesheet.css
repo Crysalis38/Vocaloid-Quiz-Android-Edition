@@ -82,7 +82,7 @@ h1.title {
 }
 
 #container {
-  border: 1px solid #2a2a2a;
+  border: 1px solid #904487;
   background: #ddd url(../images/pattern.png);
   box-shadow: 0 0 5px #b1b1b1;
 }
@@ -96,7 +96,8 @@ p.tagline {
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
-  background-color: #fff;
+  background-color: #2ce0f5;
+  background-image:url(../images/Miku%20on%20spoon.png)
 }
 
 .download-bar {
