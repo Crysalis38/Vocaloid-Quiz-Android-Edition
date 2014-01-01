@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import com.animeandmangalabs.quiz_engine.*;
+import android.widget.EditText;
+import android.widget.TextView;
 public class MainActivity extends Activity {
 public static Button btn_start;
 private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
@@ -22,8 +24,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
         setContentView(R.layout.activity_main);
         //onCreate init
         btn_start  = (Button) findViewById(R.id.main_start_button);
-        
-        //Btn listener
+       //Btn listener
         btn_start.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -36,9 +37,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(10F, 0.5F);
 				
 			}
 		});
-    }
-
-  
+	}
    
   
     @Override
