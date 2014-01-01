@@ -188,34 +188,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int welcome_bg=0x7f02000c;
     }
     public static final class id {
-        public static final int EditText01=0x7f09000c;
-        public static final int EditText02=0x7f09000e;
-        public static final int ImageView01=0x7f09000d;
-        public static final int ImageView02=0x7f090008;
-        public static final int RelativeLayout1=0x7f090006;
-        public static final int action_settings=0x7f09001b;
-        public static final int btn_submit_remember=0x7f090004;
-        public static final int edit_text_remember=0x7f090003;
-        public static final int luka_select_group=0x7f090015;
-        public static final int main_start_button=0x7f090005;
-        public static final int miku_select_group=0x7f090013;
-        public static final int quiz_01_btn_submit=0x7f09000f;
-        public static final int quiz_button_a=0x7f090009;
-        public static final int quiz_button_b=0x7f09000a;
-        public static final int quiz_image=0x7f090012;
+        public static final int EditText01=0x7f09000a;
+        public static final int EditText02=0x7f09000c;
+        public static final int ImageView01=0x7f09000b;
+        public static final int ImageView02=0x7f090006;
+        public static final int RelativeLayout1=0x7f090004;
+        public static final int action_settings=0x7f090019;
+        public static final int luka_select_group=0x7f090013;
+        public static final int main_start_button=0x7f090003;
+        public static final int miku_select_group=0x7f090011;
+        public static final int quiz_01_btn_submit=0x7f09000d;
+        public static final int quiz_button_a=0x7f090007;
+        public static final int quiz_button_b=0x7f090008;
+        public static final int quiz_image=0x7f090010;
         public static final int quiz_question=0x7f090000;
-        public static final int quiz_select_q1=0x7f090014;
+        public static final int quiz_select_q1=0x7f090012;
         public static final int quiz_select_q1_text=0x7f090001;
-        public static final int quiz_select_q2=0x7f090017;
-        public static final int quiz_select_q2_text=0x7f090016;
-        public static final int quiz_select_q3=0x7f09001a;
-        public static final int quiz_select_q3_text=0x7f090019;
-        public static final int rin_select_group=0x7f090018;
-        public static final int tCorrect=0x7f090011;
-        public static final int tIncorrect=0x7f090010;
+        public static final int quiz_select_q2=0x7f090015;
+        public static final int quiz_select_q2_text=0x7f090014;
+        public static final int quiz_select_q3=0x7f090018;
+        public static final int quiz_select_q3_text=0x7f090017;
+        public static final int rin_select_group=0x7f090016;
+        public static final int tCorrect=0x7f09000f;
+        public static final int tIncorrect=0x7f09000e;
         public static final int textView2=0x7f090002;
-        public static final int view_2_buttons=0x7f090007;
-        public static final int view_2_text=0x7f09000b;
+        public static final int view_2_buttons=0x7f090005;
+        public static final int view_2_text=0x7f090009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
