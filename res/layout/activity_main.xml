@@ -39,7 +39,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="30sp" />
 
-    <Button
+    <EditText
+		android:id="@+id/edit_text_remember"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+		/>
+	<Button
+		android:id="@+id/btn_submit_remember"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	<Button
         android:id="@+id/main_start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
