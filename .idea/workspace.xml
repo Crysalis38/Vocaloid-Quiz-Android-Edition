@@ -28,9 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -100,11 +99,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeedReaderContract.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FeedReaderContract.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="460" selection-end="460" vertical-scroll-proportion="0.21058315" vertical-offset="0" max-vertical-offset="926">
+            <state line="29" column="0" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedReaderDbHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="219" selection-end="998" vertical-scroll-proportion="0.5507559" vertical-offset="0" max-vertical-offset="926">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quis_sql_data_base_test.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" />
       </list>
     </option>
@@ -567,7 +578,11 @@
       <created>1388699982571</created>
       <updated>1388699982571</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="In progress">
+      <created>1388700643363</created>
+      <updated>1388700643363</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -622,7 +637,8 @@
     <MESSAGE value="Removed opengl&#10;" />
     <MESSAGE value="Added Database" />
     <MESSAGE value="Added Database&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Database&#10;" />
+    <MESSAGE value="In progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -733,7 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,8 +777,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="460" selection-end="460" vertical-scroll-proportion="0.21058315" vertical-offset="0" max-vertical-offset="926">
+        <state line="29" column="0" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="219" selection-end="998" vertical-scroll-proportion="0.5507559" vertical-offset="0" max-vertical-offset="926">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
