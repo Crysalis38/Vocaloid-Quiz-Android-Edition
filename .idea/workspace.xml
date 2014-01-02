@@ -28,6 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Renderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/MyGLSurfaceView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/OpenGLES20Activity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/Triangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/testRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/data_base_test/database_storage.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenGLES/AndroidManifest.xml" afterPath="$PROJECT_DIR$/OpenGLES/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -97,11 +107,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="quiz_data_manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_manager.java">
+      <file leaf-file-name="GLES20Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="780">
-              <folding />
+            <state line="43" column="9" selection-start="1049" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1005">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLES20Renderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Renderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,19 +138,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz_question_engine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_question_engine.java">
+      <file leaf-file-name="quiz_data_manager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="5" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database_storage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/data_base_test/database_storage.java">
+      <file leaf-file-name="quiz_sql_data_base_test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="0.24298055" vertical-offset="0" max-vertical-offset="926">
+            <state line="7" column="36" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz_data_base_helper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="13" selection-start="564" selection-end="813" vertical-scroll-proportion="0.33222592" vertical-offset="0" max-vertical-offset="903">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +167,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz_score_module.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_score_module.java">
+      <file leaf-file-name="SQLiteOpenHelper.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../android-sdk-macosx/platforms/android-19/android.jar!/android/database/sqlite/SQLiteOpenHelper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -182,7 +214,12 @@
         <option value="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/testRenderer.java" />
         <option value="$PROJECT_DIR$/OpenGLES/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/Triangle.java" />
+        <option value="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Activity.java" />
+        <option value="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Renderer.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/data_base_test/database_storage.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quis_sql_data_base_test.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java" />
       </list>
     </option>
   </component>
@@ -256,6 +293,10 @@
               <option name="myItemId" value="animeandmangalabs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocaloidquizandroidedition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -289,15 +330,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGLES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGLES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="animeandmangalabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_base_test" />
+              <option name="myItemId" value="opengl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,8 +384,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.animeandmangalabs.glestest" />
       <recent name="com.animeandmangalabs.opengl" />
+      <recent name="com.animeandmangalabs.glestest" />
       <recent name="com.animeandmangalabs.OpenGLES20" />
     </key>
   </component>
@@ -570,7 +625,11 @@
       <created>1388689276215</created>
       <updated>1388689276215</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Database&#10;">
+      <created>1388689285737</created>
+      <updated>1388689285737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,7 +683,8 @@
     <MESSAGE value="Removed opengl" />
     <MESSAGE value="Removed opengl&#10;" />
     <MESSAGE value="Added Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Database" />
+    <MESSAGE value="Added Database&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Database&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -701,53 +761,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/MyGLSurfaceView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_score_module.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.24298055" vertical-offset="0" max-vertical-offset="926">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.032858707" vertical-offset="0" max-vertical-offset="913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_question_engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.12958963" vertical-offset="0" max-vertical-offset="926">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenGLES/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="199" selection-end="199" vertical-scroll-proportion="0.048596114" vertical-offset="0" max-vertical-offset="926">
-          <folding>
-            <element signature="e#447#473#0" expanded="true" />
-          </folding>
+        <state line="4" column="74" selection-start="277" selection-end="277" vertical-scroll-proportion="0.064794816" vertical-offset="0" max-vertical-offset="926">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/testRenderer.java">
+    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="703" selection-end="703" vertical-scroll-proportion="0.45356372" vertical-offset="0" max-vertical-offset="926">
+        <state line="43" column="9" selection-start="1049" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1005">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Renderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="413" selection-end="413" vertical-scroll-proportion="0.3156146" vertical-offset="0" max-vertical-offset="903">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/glestest/OpenGLES20Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="457" selection-end="457" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="926">
+        <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="780">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,23 +807,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_score_module.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="5" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_question_engine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_base_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="7" column="36" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/data_base_test/database_storage.java">
+    <entry file="jar://$PROJECT_DIR$/../../android-sdk-macosx/platforms/android-19/android.jar!/android/database/sqlite/SQLiteOpenHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="0.24298055" vertical-offset="0" max-vertical-offset="926">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="564" selection-end="813" vertical-scroll-proportion="0.33222592" vertical-offset="0" max-vertical-offset="903">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
