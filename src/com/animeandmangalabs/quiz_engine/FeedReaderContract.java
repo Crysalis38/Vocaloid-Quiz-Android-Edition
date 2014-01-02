@@ -2,6 +2,8 @@ package com.animeandmangalabs.quiz_engine;
 
 import android.provider.BaseColumns;
 
+import static java.security.AccessController.getContext;
+
 /**
  * Created by jeroenmathon on 1/2/14.
  */
@@ -22,6 +24,7 @@ public final class FeedReaderContract {
                 FeedEntry.COLUMN_NAME_TITLE + TEXT_TYPE + COMMA_SEP +
                 // Any other options for the CREATE command
                 " )";
+
         private  static final String SQL_DELETE_ENTRIES =
                 "DROP TABLE IF EXISTS " + FeedEntry.TABLE_NAME;
     }
