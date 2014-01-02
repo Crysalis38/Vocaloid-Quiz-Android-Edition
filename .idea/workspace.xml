@@ -28,7 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/data_base_test/database_storage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -567,7 +566,11 @@
       <created>1388688467067</created>
       <updated>1388688467067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Database">
+      <created>1388689276215</created>
+      <updated>1388689276215</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +623,8 @@
     <MESSAGE value="optimised OpenGLES classes&#10;" />
     <MESSAGE value="Removed opengl" />
     <MESSAGE value="Removed opengl&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed opengl&#10;" />
+    <MESSAGE value="Added Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
