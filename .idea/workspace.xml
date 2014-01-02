@@ -6,11 +6,16 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="Added 2 Graphical object,&#10;Still in work">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyGLSurfaceView.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyGLSurfaceView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyRenderer.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyRenderer.java" />
+    <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="Added 2 Graphical object,&#10;Still in work&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyOpenGLRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/Triangle.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyGLSurfaceView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/OpenGLES20Activity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Square.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Triangle.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -75,64 +80,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="30" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.4049676" vertical-offset="0" max-vertical-offset="926">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenGLES20Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/OpenGLES20Activity.java">
+      <file leaf-file-name="MyOpenGLRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyOpenGLRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="14" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyGLSurfaceView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyGLSurfaceView.java">
+      <file leaf-file-name="Triangle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="528" selection-end="528" vertical-scroll-proportion="0.35620916" vertical-offset="157" max-vertical-offset="1485">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Square.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,6 +171,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,10 +230,6 @@
               <option name="myItemId" value="animeandmangalabs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quiz_engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -281,14 +249,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opengl" />
+              <option name="myItemId" value="OpenGlLES" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,10 +264,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../android-sdk-macosx/extras/android/support/v4/android-support-v4.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenGlLES" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -318,7 +284,7 @@
       <recent name="com.animeandmangalabs.OpenGLES20" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.VocaloidQuizAndroidEdition">
+  <component name="RunManager" selected="Android Application.OpenGlLES">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -353,19 +319,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -391,6 +344,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -488,9 +454,29 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="OpenGlLES" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="OpenGlLES" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.VocaloidQuizAndroidEdition" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.OpenGLES20" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.OpenGlLES" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -530,7 +516,11 @@
       <created>1388613636380</created>
       <updated>1388613636380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 2 Graphical object,&#10;Still in work">
+      <created>1388616152144</created>
+      <updated>1388616152144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -548,19 +538,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -590,6 +580,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="660">
           <folding />
         </state>
@@ -597,9 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="2325">
-          <folding />
-        </state>
+        <state line="6" column="29" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="2325" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/MainActivity.java">
@@ -609,46 +618,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/OpenGLES20Activity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Square.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyOpenGLRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="14" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyGLSurfaceView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/OpenGlLES/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/MyRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/opengl/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="528" selection-end="528" vertical-scroll-proportion="0.35620916" vertical-offset="157" max-vertical-offset="1485">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="30" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.4049676" vertical-offset="0" max-vertical-offset="926">
+          <folding />
         </state>
       </provider>
     </entry>

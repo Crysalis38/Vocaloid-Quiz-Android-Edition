@@ -44,7 +44,6 @@
             android:label="@string/title_activity_quiz__select"
             android:screenOrientation="landscape" >
         </activity>
-        <activity android:name="com.animeandmangalabs.opengl.OpenGLES20Activity"/>
 
     </application>
 
