@@ -7,6 +7,7 @@ import java.nio.FloatBuffer;
 /**
  * Created by jeroenmathon on 1/3/14.
  */
+//OpenGL
 public class Square {
     public Square()
     {
