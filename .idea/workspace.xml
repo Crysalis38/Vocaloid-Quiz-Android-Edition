@@ -42,14 +42,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_sql_lite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Comment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/CommentDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/MySQLiteHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/sql_lite_activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/vocaloid_sqlite_helper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -122,9 +114,10 @@
       <file leaf-file-name="Quiz_Select.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.5345572" vertical-offset="0" max-vertical-offset="926">
+            <state line="30" column="50" selection-start="860" selection-end="860" vertical-scroll-proportion="0.3563715" vertical-offset="0" max-vertical-offset="926">
               <folding>
                 <element signature="e#1003#1130#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -300,6 +293,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animeandmangalabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -319,42 +330,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGLES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGLES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -654,7 +629,11 @@
       <created>1388756975907</created>
       <updated>1388756975907</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Data base removal&#10;Im goign to go into deep deep study about this subject">
+      <created>1388760981886</created>
+      <updated>1388760981886</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -712,7 +691,8 @@
     <MESSAGE value="In progress" />
     <MESSAGE value="In progress&#10;" />
     <MESSAGE value="Temp database int" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temp database int" />
+    <MESSAGE value="Data base removal&#10;Im goign to go into deep deep study about this subject" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data base removal&#10;Im goign to go into deep deep study about this subject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -855,9 +835,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.5345572" vertical-offset="0" max-vertical-offset="926">
+        <state line="30" column="50" selection-start="860" selection-end="860" vertical-scroll-proportion="0.3563715" vertical-offset="0" max-vertical-offset="926">
           <folding>
             <element signature="e#1003#1130#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
           </folding>
         </state>
       </provider>
