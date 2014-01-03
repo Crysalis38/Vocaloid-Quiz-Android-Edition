@@ -633,7 +633,11 @@
       <created>1388760981886</created>
       <updated>1388760981886</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Database init">
+      <created>1388763507662</created>
+      <updated>1388763507662</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +696,8 @@
     <MESSAGE value="In progress&#10;" />
     <MESSAGE value="Temp database int" />
     <MESSAGE value="Data base removal&#10;Im goign to go into deep deep study about this subject" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data base removal&#10;Im goign to go into deep deep study about this subject" />
+    <MESSAGE value="Database init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
