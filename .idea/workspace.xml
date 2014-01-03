@@ -41,10 +41,8 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="Initialized OpenGL Square class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenGLES/src/Square.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenGLES/src/com/animeandmangalabs/opengl/GLES20Renderer.java" afterPath="" />
+    <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenGLES/src/Square.java" afterPath="$PROJECT_DIR$/OpenGLES/src/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -117,7 +115,7 @@
       <file leaf-file-name="Square.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OpenGLES/src/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="0" selection-end="1874" vertical-scroll-proportion="0.2386609" vertical-offset="124" max-vertical-offset="1170">
+            <state line="11" column="6" selection-start="277" selection-end="277" vertical-scroll-proportion="0.044276457" vertical-offset="124" max-vertical-offset="1170">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -676,12 +674,16 @@
       <created>1388763519592</created>
       <updated>1388763519592</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initialized OpenGL Square class">
+      <created>1388775878213</created>
+      <updated>1388775878213</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -873,7 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenGLES/src/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="0" selection-end="1874" vertical-scroll-proportion="0.2386609" vertical-offset="124" max-vertical-offset="1170">
+        <state line="11" column="6" selection-start="277" selection-end="277" vertical-scroll-proportion="0.044276457" vertical-offset="124" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
