@@ -24,11 +24,35 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_sql_layout.xml">
+        <config>
+          <device>10.1in WXGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_sql_lite.xml">
+        <config>
+          <device>10.1in WXGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="522cde77-949f-4ea3-bf4d-8a439c861ab6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/CommentDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/MySQLiteHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_sql_lite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/sql_lite_activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/vocaloid_sqlite_helper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_handler.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java" afterPath="$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vocaloid-Quiz-Android-Edition.iws" />
@@ -98,21 +122,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeedReaderContract.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java">
+      <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+            <state line="2" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentDataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/CommentDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql_lite_activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/sql_lite_activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#877#886#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedReaderDbHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java">
+      <file leaf-file-name="MySQLiteHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/MySQLiteHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16198704" vertical-offset="0" max-vertical-offset="926">
+            <state line="7" column="13" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vocaloid_sqlite_helper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/vocaloid_sqlite_helper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="254" selection-end="254" vertical-scroll-proportion="0.14578834" vertical-offset="0" max-vertical-offset="926">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +218,16 @@
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_data_base_helper.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java" />
         <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Contact.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_sql_data_handler.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_sql_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/MySQLiteHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Comment.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/CommentDataSource.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_sql_lite.xml" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/sql_lite_activity.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java" />
+        <option value="$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/vocaloid_sqlite_helper.java" />
       </list>
     </option>
   </component>
@@ -202,8 +264,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,6 +336,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vocaloid-Quiz-Android-Edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="OpenGLES" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,6 +396,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,12 +424,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.animeandmangalabs.quiz_engine" />
       <recent name="com.animeandmangalabs.opengl" />
       <recent name="com.animeandmangalabs.glestest" />
       <recent name="com.animeandmangalabs.OpenGLES20" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.OpenGLES">
+  <component name="RunManager" selected="Android Application.VocaloidQuizAndroidEdition">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -587,7 +682,11 @@
       <created>1388705280101</created>
       <updated>1388705280101</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="In progress&#10;">
+      <created>1388705689563</created>
+      <updated>1388705689563</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,7 +696,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -695,30 +794,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="899">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="899" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_quiz_01.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_01_Answers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="30" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1635">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/quiz_score_module.java">
@@ -776,23 +864,77 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../android-sdk-macosx/platforms/android-19/android.jar!/android/database/sqlite/SQLiteOpenHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_quiz__select.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="4621" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderContract.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_sql_lite.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="32" column="35" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.85714287" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_01_Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="30" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/vocaloidquizandroidedition/Quiz_Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="38" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.75980395" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/CommentDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/sql_lite_activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#877#886#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/FeedReaderDbHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/MySQLiteHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="314" selection-end="314" vertical-scroll-proportion="0.16198704" vertical-offset="0" max-vertical-offset="926">
+        <state line="7" column="13" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/animeandmangalabs/quiz_engine/vocaloid_sqlite_helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="254" selection-end="254" vertical-scroll-proportion="0.14578834" vertical-offset="0" max-vertical-offset="926">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

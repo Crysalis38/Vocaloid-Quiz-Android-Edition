@@ -29,5 +29,6 @@
     <string name="q2_text">QUIZ PACK 02</string>
     <string name="q3_text">QUIZ PACK 03</string>
 	<string name="title_activity_Quiz_remember_test">User_login_screen</string>
+    <string name="hello"/>
 
 </resources>

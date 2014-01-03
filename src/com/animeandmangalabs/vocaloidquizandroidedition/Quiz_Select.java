@@ -15,6 +15,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import com.animeandmangalabs.quiz_engine.sql_lite_activity;
 
 public class Quiz_Select extends Activity {
 	ImageButton btn_q1,btn_q2,btn_q3;
@@ -48,7 +49,8 @@ public class Quiz_Select extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-			
+			Intent intent = new Intent(Quiz_Select.this, sql_lite_activity.class);
+                startActivity(intent);
 			}
 		});
     }
