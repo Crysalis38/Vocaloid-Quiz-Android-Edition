@@ -3,19 +3,10 @@ package com.animeandmangalabs.vocaloidquizandroidedition;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Point;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.view.Display;
 import android.view.Menu;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.ScrollView;
-import com.animeandmangalabs.quiz_engine.sql_lite_activity;
 
 public class Quiz_Select extends Activity {
 	ImageButton btn_q1,btn_q2,btn_q3;
@@ -49,8 +40,7 @@ public class Quiz_Select extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-			Intent intent = new Intent(Quiz_Select.this, sql_lite_activity.class);
-                startActivity(intent);
+
 			}
 		});
     }
