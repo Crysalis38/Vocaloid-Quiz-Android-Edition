@@ -681,7 +681,11 @@
       <created>1388775957190</created>
       <updated>1388775957190</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Initialized OpenGL Square class&#10;">
+      <created>1388775980678</created>
+      <updated>1388775980678</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
