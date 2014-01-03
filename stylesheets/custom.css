@@ -1,0 +1,29 @@
+nav {
+    background-color: grey;
+    
+    background-color: #330808;
+    display: -moz-box;
+    /* Firefox */
+    display: -webkit-box;
+    /* Safari and Chrome */
+    display: -ms-flexbox;
+    /* Internet Explorer 10 */
+    display: box;
+    width: 100%;
+}
+
+nav div {
+    display: inline-block;
+}
+
+#page {
+    text-align: center;
+    background-color: white;
+    width: auto;
+    margin: auto auto auto auto;
+    
+    -moz-box-flex: 1.0; /* Firefox */
+    -webkit-box-flex: 1.0; /* Safari and Chrome */
+    -ms-flex: 1.0; /* Internet Explorer 10 */
+    box-flex: 1.0;
+}

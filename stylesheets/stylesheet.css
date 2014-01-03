@@ -69,7 +69,7 @@ a:hover {
 }
 
 h1.title {
-  margin: 30px 20px 10px;
+  margin: 30px 20px 5px;
   font-size: 60px;
   font-weight: bold;
   font-style: italic;
@@ -84,10 +84,11 @@ h1.title {
 }
 
 #container {
-  border: 3px solid #904487;
-  background: #ddd url(../images/pattern.png);
-  box-shadow: 0 0 5px #b1b1b1;
-  font-weight: bolder;
+    border: 3px solid #904487;
+    background: #ddd url(../images/pattern.png);
+    box-shadow: 0 0 5px #b1b1b1;
+    font-weight: bolder;
+    margin-top: 15px;
 }
 
 #contactsHolder {
@@ -105,7 +106,7 @@ h1.title {
 #contact {
     background-color: #6c1313;
     margin: 5px 5px 5px 5px;
-    padding-left: 5px;
+    padding: 0px 5px 5px 5px;
     -moz-box-flex: 1.0; /* Firefox */
     -webkit-box-flex: 1.0; /* Safari and Chrome */
     -ms-flex: 1.0; /* Internet Explorer 10 */
@@ -115,6 +116,11 @@ h1.title {
 #contact p {
     padding: 0px;
     margin: 0px;
+    margin-bottom: 3px;
+}
+
+#contact a {
+    padding-top: 0px;
 }
 
 p.tagline {
@@ -624,5 +630,6 @@ article {
 }
 
 #desc {
+    margin-bottom: 20px;
     color: #71fad8;
 }
