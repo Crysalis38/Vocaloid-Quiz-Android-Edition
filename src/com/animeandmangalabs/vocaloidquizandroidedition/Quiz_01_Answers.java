@@ -71,25 +71,9 @@ public class Quiz_01_Answers {
 					// TODO Auto-generated method stub
 					s1up = Quiz_01.quiz_text_input_1.getText().toString();
 					s2up = Quiz_01.quiz_text_input_2.getText().toString();
-					if(s1up.toUpperCase() == "KAGAME RIN"){
-						bT1c = true;
-					}else if(s1up.toUpperCase() == "RIN KAGAME"){
-						bT1c = true;
-					}else if(s1up.toUpperCase() == "RIN"){
-						bT1c = true;
-					}else{
-						bT1c = false;
-					}
-					
-					if(s2up.toUpperCase() == "KAGAME LEN"){
-						bT2c = true;
-					}else if(s2up.toUpperCase() == "LEN KAGAME"){
-						bT2c = true;
-					}else if(s2up.toUpperCase() == "LEN"){
-						bT2c = true;
-					}else{
-						bT2c = false;
-					}
+                    bT1c = (s1up.equalsIgnoreCase("KAGAME RIN") || s1up.equalsIgnoreCase("RIN KAGAME") || s1up.equalsIgnoreCase("RIN")) == true? true:false;
+                    bT1c = (s1up.equalsIgnoreCase("KAGAME LEN") || s1up.equalsIgnoreCase("LEN KAGAME") || s1up.equalsIgnoreCase("LEN")) == true? true:false;
+
 			if(bT1c == true && bT2c == true){
 				Quiz_01.Correct();
 			}else{
